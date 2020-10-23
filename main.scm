@@ -10,7 +10,7 @@
 (isPalindrome "racecar") ; #t
 (isPalindrome "raceca") ; #f
 
-; sumOfSeries function which uses a lambda expression and takes a list as a parameter and recursively finds the sum of all of the members of the list by using car to get the first member and then cdr to put the rest of the list into another iteration of sumOfSeries.  The recursion ends when a null list is passed as a parameter
+; sumOfSeries function which uses a lambda expression and takes a list as a parameter and recursively finds the sum of all of the members of the list by using car to get the first member and then cdr to put the rest of the list into another iteration of sumOfSeries.  The recursion ends when null is passed as a parameter
 (define sumOfSeries
   (lambda (ls)
     (if (null? ls)
